@@ -7,12 +7,9 @@ public class Director {
         this.bottleBuilder = bottleBuilder;
     }
 
-    public void construct(boolean isPerfume){
+    public void construct(){
         bottleBuilder.buildBody();
         bottleBuilder.buildCap();
         bottleBuilder.buildLabel();
-        if(isPerfume){
-            bottleBuilder.buildSprayNozzle();
-        }
     }
 }

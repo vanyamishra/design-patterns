@@ -10,14 +10,16 @@ public class PerfumeBottleBuilder extends BottleBuilder {
 
     @Override
     public void buildCap() {
+        System.out.println("Building perfume bottle cap...");
     }
 
     @Override
     public void buildLabel() {
+        System.out.println("Building perfume bottle label...");
     }
 
-    @Override
     public void buildSprayNozzle() {
+        System.out.println("Building perfume bottle spray nozzle...");
     }
 
     @Override

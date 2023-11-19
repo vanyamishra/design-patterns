@@ -4,7 +4,7 @@ public class Client {
     public static void main(String[] args) throws Exception {
         PerfumeBottleBuilder perfumeBottleBuilder = new PerfumeBottleBuilder();
         Director director = new Director(perfumeBottleBuilder);
-        director.construct(true);
+        director.construct();
 
         Bottle bottle = perfumeBottleBuilder.getResult();
         
