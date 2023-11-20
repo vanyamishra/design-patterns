@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.pattern.builder.models;
 
 public class TonerBottle extends Bottle {
 

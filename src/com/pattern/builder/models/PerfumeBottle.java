@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.pattern.builder.models;
 
 public class PerfumeBottle extends Bottle {
 
@@ -9,4 +9,7 @@ public class PerfumeBottle extends Bottle {
         this.materialType = materialType;
     }
 
+    public String getCapacity(){
+        return materialType;
+    }
 }

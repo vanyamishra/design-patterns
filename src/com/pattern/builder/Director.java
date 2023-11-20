@@ -1,5 +1,6 @@
 package com.pattern.builder;
 
+//Director class
 public class Director {
     BottleBuilder bottleBuilder;
 

@@ -1,6 +1,10 @@
 package com.pattern.builder;
 
-public class PerfumeBottleBuilder extends BottleBuilder {
+import com.pattern.builder.models.Bottle;
+import com.pattern.builder.models.PerfumeBottle;
+
+//Concrete builder for perfume bottles
+public class PerfumeBottleBuilder implements BottleBuilder {
     PerfumeBottle perfumeBottle;
 
     @Override
@@ -16,10 +20,6 @@ public class PerfumeBottleBuilder extends BottleBuilder {
     @Override
     public void buildLabel() {
         System.out.println("Building perfume bottle label...");
-    }
-
-    public void buildSprayNozzle() {
-        System.out.println("Building perfume bottle spray nozzle...");
     }
 
     @Override

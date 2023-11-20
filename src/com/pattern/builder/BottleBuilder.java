@@ -1,11 +1,13 @@
 package com.pattern.builder;
 
-public abstract class BottleBuilder {
-    public abstract void buildBody();
+import com.pattern.builder.models.Bottle;
 
-    public abstract void  buildCap();
+public interface BottleBuilder {
+    void buildBody();
 
-    public abstract void  buildLabel();
+    void buildCap();
 
-    public abstract  Bottle getResult();
+    void buildLabel();
+
+    Bottle getResult();
 }
